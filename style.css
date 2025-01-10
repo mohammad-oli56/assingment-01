@@ -67,7 +67,7 @@ body {
     height: 560px;
     border-radius: 24px;
     background: rgb(198, 228, 214);
-    margin: 0 auto;
+    margin: 0 160px;
     display: flex;
     justify-content: center;
     align-items: center;
