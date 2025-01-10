@@ -60,6 +60,11 @@ body {
     padding: 15px 30px;
 }
 
+.nav-button:hover{
+    cursor: pointer;
+    background-color: rgba(1, 78, 59, 0.277);;
+}
+
 /* Banner section */
 
 .banner {
@@ -126,6 +131,171 @@ body {
     text-align: center;
 }
 
-.banner-button:hover{
+.banner-button:hover {
     background-color: #ff0000;
+    cursor: pointer;
+}
+
+/* main */
+
+/* card-01 */
+
+#card-01 {
+    width: 1280px;
+    height: 324px;
+    margin: 80px 160px;
+
+}
+
+#card-01 .card-title {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.card-dis {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-box {
+    width: 302px;
+    height: 244px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+
+}
+
+.card-box img {
+    padding-top: 25px;
+    padding-left: 26px;
+}
+
+.card-box .card-text {
+    padding-left: 26px;
+    padding-bottom: 24px;
+}
+
+/* card-02 */
+
+#card-02 {
+    margin: 0 160px;
+    width: 1280px;
+    height: 565px;
+}
+
+.card-2-dis{
+    display: flex;
+    gap: 30px;
+}
+
+.card-2-title-1{
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.card-2-p-1{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 30px;
+margin-top: -15px;
+}
+
+.card-2-box-1{
+    box-sizing: border-box;
+border-radius: 16px;
+background: rgba(84, 144, 245, 0.2);
+width: 410.67px;
+height: 325px;
+}
+
+.card-2-box-2{
+    box-sizing: border-box;
+border-radius: 16px;
+background: rgb(198, 228, 214);
+width: 410.67px;
+height: 325px;
+}
+
+.card-2-box-3{
+    box-sizing: border-box;
+border-radius: 16px;
+background: rgb(247, 235, 207);
+width: 410.67px;
+height: 325px;
+}
+
+.card-2-box-1 ,.card-2-box-2,.card-2-box-3 img{
+    padding-top: 25px;
+    padding-left: 26px;
+}
+
+.card-2-text-1{
+    padding-left: 8px;
+    padding-bottom: 24px;
+}
+
+.card-2-text-2{
+    padding-left: 8px;
+    padding-bottom: 24px;
+}
+
+.card-2-text-3{
+    padding-left: 30px;
+    padding-bottom: 24px;
+}
+
+.card-2-text-1 button{
+    width: 122px;
+height: 41px;
+border-radius: 8px;
+background: rgb(84, 144, 245);
+border: none;
+}
+
+.card-2-text-1 button:hover{
+    background-color: #00e5ff;
+    cursor: pointer;
+}
+
+.card-2-text-2 button{
+    width: 122px;
+height: 41px;
+border-radius: 8px;
+background: rgb(9, 161, 92);
+border: none;
+}
+
+.card-2-text-2 button:hover{
+    background-color: #00e5ff;
+    cursor: pointer;
+}
+
+.card-2-text-3 button{
+    width: 122px;
+height: 41px;
+border-radius: 8px;
+background: rgb(255, 194, 57);
+border: none;
+}
+
+.card-2-text-3 button:hover{
+    background-color: #00e5ff;
+    cursor: pointer;
 }
