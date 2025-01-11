@@ -130,6 +130,7 @@ body {
     width: 270px;
     height: 56px;
     text-align: center;
+    border: none;
 }
 
 .banner-button:hover {
@@ -183,6 +184,21 @@ body {
     padding-bottom: 24px;
 }
 
+.card-text-h4{
+    color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 20px;
+font-weight: 700;
+margin-bottom: -2px;
+}
+
+.card-text-p{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+}
+
 /* card-02 */
 
 #card-02 {
@@ -201,10 +217,25 @@ body {
     font-family: Fira Sans;
     font-size: 40px;
     font-weight: 700;
-    line-height: 48px;
+}
+
+.card-2-text-1-p {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.card-2-text-1-1 {
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
     letter-spacing: 0%;
     text-align: left;
 }
+
 
 .card-2-p-1 {
     color: rgba(14, 14, 14, 0.7);
@@ -270,10 +301,14 @@ body {
     border-radius: 8px;
     background: rgb(84, 144, 245);
     border: none;
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
 }
 
 .card-2-text-1 button:hover {
-    background-color: #00e5ff;
+    background-color: #00b3ff;
     cursor: pointer;
 }
 
@@ -283,6 +318,10 @@ body {
     border-radius: 8px;
     background: rgb(9, 161, 92);
     border: none;
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
 }
 
 .card-2-text-2 button:hover {
@@ -296,6 +335,11 @@ body {
     border-radius: 8px;
     background: rgb(255, 194, 57);
     border: none;
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+
 }
 
 .card-2-text-3 button:hover {
@@ -317,16 +361,16 @@ body {
 }
 
 .text-01-p {
-    text-align: left;
     padding-left: 25px;
     padding-top: 30px;
     color: rgba(14, 14, 14, 0.8);
     font-family: Fira Sans;
     font-size: 16px;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 22px;
     letter-spacing: 0%;
     text-align: left;
+    margin-right: 24px;
 }
 
 .text-01-h3 {
@@ -664,7 +708,7 @@ body {
     height: 402px;
     background: rgba(239, 236, 236, 0.314);
     border-radius: 24px;
-    border: 1px ;
+    border: 1px;
     display: flex;
     align-items: center;
     gap: 32px;
