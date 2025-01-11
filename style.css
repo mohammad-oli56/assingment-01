@@ -477,7 +477,7 @@ body {
     width: 1280px;
     height: 395px;
     margin-top: 20px;
-    margin: 30px auto;
+    margin: 30px 160px;
     border-radius: 24px;
     background: rgb(198, 228, 214);
     display: flex;
@@ -485,13 +485,13 @@ body {
     align-items: center;
 }
 
-.main-7-1 {
+.sub-7-1 {
     width: 130px;
     height: 130px;
 
 }
 
-.main-7-7 {
+.sub-7-7 {
     width: 890px;
     height: 400px;
     display: flex;
@@ -502,7 +502,7 @@ body {
 
 }
 
-.main-7-2 {
+.sub-7-2 {
     color: rgb(7, 2, 17);
     font-family: Merriweather;
     font-size: 48px;
@@ -511,7 +511,7 @@ body {
     text-align: center;
 }
 
-.main-7-3 {
+.sub-7-3 {
     color: rgba(7, 2, 17, 0.6);
     font-family: Inter;
     font-size: 20px;
@@ -520,7 +520,7 @@ body {
     text-align: center;
 }
 
-.main-7-7-7 {
+.sub-7-7-7 {
     background-color: rgb(220, 97, 2);
 }
 
@@ -566,7 +566,7 @@ body {
     background-color: rgb(255, 0, 0);
 }
 
-.main-7-4 {
+.sub-7-4 {
     color: rgba(14, 14, 14, 0.7);
     font-family: Fira Sans;
     font-size: 16px;
@@ -575,4 +575,45 @@ body {
     letter-spacing: 0%;
     text-align: center;
     opacity: rgba(14, 14, 14, 0.7);
+}
+
+
+/* -------------------------- */
+
+#foot-last {
+    width: 1600px;
+    height: 240px;
+    background: rgb(255, 255, 255);
+    margin-top: 80px;
+}
+
+.foot-title {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 32px;
+    font-weight: 700;
+
+
+}
+
+#foot-last hr {
+    margin: 0 239px;
+    border: 1px solid rgba(14, 14, 14, 0.1);
+}
+
+.foot-icon {
+    width: 120.55px;
+height: 24px;
+    display: flex;
+    gap: 23px;
+}
+
+.foot-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
 }
