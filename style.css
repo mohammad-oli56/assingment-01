@@ -606,7 +606,7 @@ body {
 
 .foot-icon {
     width: 120.55px;
-height: 24px;
+    height: 24px;
     display: flex;
     gap: 23px;
 }
@@ -616,4 +616,157 @@ height: 24px;
     justify-content: center;
     align-items: center;
     margin-top: 30px;
+}
+
+/* -------------------------- */
+
+#news {
+    margin: 90px 160px;
+    width: 1280px;
+    height: 1406px;
+}
+
+.news-title {
+    width: 1280px;
+    height: 120px;
+}
+
+.title-01 {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 24px;
+}
+
+.title-02 {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.news-sub-div {
+    width: 1280px;
+    height: 402px;
+    background: rgba(239, 236, 236, 0.314);
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    margin-bottom: 24px;
+}
+
+.news-sub-div-1 {
+    width: 1280px;
+    height: 402px;
+    background: rgba(239, 236, 236, 0.314);
+    border-radius: 24px;
+    border: 1px ;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    margin-bottom: 24px;
+}
+
+.news-sub-div img {
+    margin-left: 48px;
+    border-radius: 24px;
+}
+
+.sub-div-1 {
+    width: 744px;
+}
+
+.sub-div-1-1 {
+    width: 744px;
+    margin-left: 48px;
+}
+
+.sub-div-1 img {
+    margin-left: 0;
+}
+
+.sub-div-1-1 img {
+    margin-left: 0;
+
+}
+
+.date {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.sub-div-1-1 button {
+    width: 139px;
+    height: 48px;
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    border: none;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.sub-div-1 button {
+    width: 139px;
+    height: 48px;
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    border: none;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.sub-div-1 button:hover {
+    background: #ff0000;
+    cursor: pointer;
+}
+
+.sub-div-1-1 button {
+    width: 139px;
+    height: 48px;
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    border: none;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.sub-div-1-1 button:hover {
+    background: #ff0000;
+    cursor: pointer;
+}
+
+.news-sup-div {
+    display: block;
+    padding-bottom: 24px;
+    margin-top: 32px;
+}
+
+.sub-div-1-h3 {
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.sub-div-1-p {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
 }
