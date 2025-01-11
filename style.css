@@ -60,9 +60,10 @@ body {
     padding: 15px 30px;
 }
 
-.nav-button:hover{
+.nav-button:hover {
     cursor: pointer;
-    background-color: rgba(1, 78, 59, 0.277);;
+    background-color: rgba(1, 78, 59, 0.277);
+    ;
 }
 
 /* Banner section */
@@ -190,112 +191,388 @@ body {
     height: 565px;
 }
 
-.card-2-dis{
+.card-2-dis {
     display: flex;
     gap: 30px;
 }
 
-.card-2-title-1{
+.card-2-title-1 {
     color: rgb(14, 14, 14);
-font-family: Fira Sans;
-font-size: 40px;
-font-weight: 700;
-line-height: 48px;
-letter-spacing: 0%;
-text-align: left;
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
 }
 
-.card-2-p-1{
+.card-2-p-1 {
     color: rgba(14, 14, 14, 0.7);
-font-family: Fira Sans;
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0%;
-text-align: left;
-margin-bottom: 30px;
-margin-top: -15px;
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 30px;
+    margin-top: -15px;
 }
 
-.card-2-box-1{
+.card-2-box-1 {
     box-sizing: border-box;
-border-radius: 16px;
-background: rgba(84, 144, 245, 0.2);
-width: 410.67px;
-height: 325px;
+    border-radius: 16px;
+    background: rgba(84, 144, 245, 0.2);
+    width: 410.67px;
+    height: 325px;
 }
 
-.card-2-box-2{
+.card-2-box-2 {
     box-sizing: border-box;
-border-radius: 16px;
-background: rgb(198, 228, 214);
-width: 410.67px;
-height: 325px;
+    border-radius: 16px;
+    background: rgb(198, 228, 214);
+    width: 410.67px;
+    height: 325px;
 }
 
-.card-2-box-3{
+.card-2-box-3 {
     box-sizing: border-box;
-border-radius: 16px;
-background: rgb(247, 235, 207);
-width: 410.67px;
-height: 325px;
+    border-radius: 16px;
+    background: rgb(247, 235, 207);
+    width: 410.67px;
+    height: 325px;
 }
 
-.card-2-box-1 ,.card-2-box-2,.card-2-box-3 img{
+.card-2-box-1,
+.card-2-box-2,
+.card-2-box-3 img {
     padding-top: 25px;
     padding-left: 26px;
 }
 
-.card-2-text-1{
+.card-2-text-1 {
     padding-left: 8px;
     padding-bottom: 24px;
 }
 
-.card-2-text-2{
+.card-2-text-2 {
     padding-left: 8px;
     padding-bottom: 24px;
 }
 
-.card-2-text-3{
+.card-2-text-3 {
     padding-left: 30px;
     padding-bottom: 24px;
 }
 
-.card-2-text-1 button{
+.card-2-text-1 button {
     width: 122px;
-height: 41px;
-border-radius: 8px;
-background: rgb(84, 144, 245);
-border: none;
+    height: 41px;
+    border-radius: 8px;
+    background: rgb(84, 144, 245);
+    border: none;
 }
 
-.card-2-text-1 button:hover{
+.card-2-text-1 button:hover {
     background-color: #00e5ff;
     cursor: pointer;
 }
 
-.card-2-text-2 button{
+.card-2-text-2 button {
     width: 122px;
-height: 41px;
-border-radius: 8px;
-background: rgb(9, 161, 92);
-border: none;
+    height: 41px;
+    border-radius: 8px;
+    background: rgb(9, 161, 92);
+    border: none;
 }
 
-.card-2-text-2 button:hover{
+.card-2-text-2 button:hover {
     background-color: #00e5ff;
     cursor: pointer;
 }
 
-.card-2-text-3 button{
+.card-2-text-3 button {
     width: 122px;
-height: 41px;
-border-radius: 8px;
-background: rgb(255, 194, 57);
-border: none;
+    height: 41px;
+    border-radius: 8px;
+    background: rgb(255, 194, 57);
+    border: none;
 }
 
-.card-2-text-3 button:hover{
+.card-2-text-3 button:hover {
     background-color: #00e5ff;
     cursor: pointer;
+}
+
+#text-01 {
+    margin: -38px 160px;
+    width: 1280px;
+    height: 256px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    background-image: url("quote-bg.png");
+    background-repeat: no-repeat;
+    background-position: 25px 24px;
+}
+
+.text-01-p {
+    text-align: left;
+    padding-left: 25px;
+    padding-top: 30px;
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.text-01-h3 {
+    text-align: left;
+    padding-left: 25px;
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: -10px;
+
+}
+
+.text-01-p-1 {
+    text-align: left;
+    padding-left: 25px;
+    color: rgba(14, 14, 14, 0.6);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 48px;
+}
+
+/* ---------------------------------------- */
+
+#donet-sec {
+    width: 1280px;
+    height: 464px;
+    margin: 80px 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.donet-h4 {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    text-align: center;
+    margin-top: -20px;
+}
+
+.donet-p-1 {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.card-container-1 {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+
+}
+
+.card {
+    width: 264px;
+    height: 128px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card:hover {
+    background-color: #15ff0072;
+    cursor: pointer;
+}
+
+.card-1 {
+    width: 264px;
+    height: 128px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(198, 228, 214);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-1:hover {
+    background-color: #15ff0072;
+    cursor: pointer;
+}
+
+
+.card-span {
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+
+}
+
+.donet-input {
+    margin-top: 32px;
+    width: 1032px;
+    height: 64px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgb(255, 255, 255);
+    text-align: center;
+    color: rgba(14, 14, 14, 0.3);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.donet-button {
+    width: 151px;
+    height: 56px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.1);
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 49px;
+}
+
+.donet-button:hover {
+    background-color: #15ff0072;
+    cursor: pointer;
+}
+
+/* ------------------------------- */
+
+#Subscribe-part {
+    width: 1280px;
+    height: 395px;
+    margin-top: 20px;
+    margin: 30px auto;
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-7-1 {
+    width: 130px;
+    height: 130px;
+
+}
+
+.main-7-7 {
+    width: 890px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.main-7-2 {
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 0;
+    text-align: center;
+}
+
+.main-7-3 {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: -40px;
+    text-align: center;
+}
+
+.main-7-7-7 {
+    background-color: rgb(220, 97, 2);
+}
+
+.email-form {
+    display: flex;
+    gap: 0;
+}
+
+.email-input {
+    color: rgba(14, 14, 14, 0.3);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: left;
+    border: none;
+    border-right: none;
+    border-radius: 5px 0 0 5px;
+    width: 600px;
+    height: 54px;
+    padding-left: 40px;
+    opacity: rgba(14, 14, 14, 0.3);
+}
+
+.submit-button {
+    padding: 10px 20px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: capitalize;
+    color: #fff;
+    background: rgb(0, 106, 80);
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    width: 150px;
+    height: 56px;
+}
+
+.submit-button:hover {
+    background-color: rgb(255, 0, 0);
+}
+
+.main-7-4 {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: rgba(14, 14, 14, 0.7);
 }
